@@ -1,0 +1,37 @@
+.container-card{
+     background: teal;
+
+
+          width: 250px;
+          height: 170px;  
+          margin: 5px;
+        //   border: 1px solid white;
+          border-radius: 10px;
+          position: relative!important;
+          img{
+              border-radius: 10px;
+             width: 100%;
+             height: 100%;
+             position: absolute; 
+          } 
+
+           &:hover .card-item{
+            opacity: 1; 
+
+           }
+           .card-item{
+             position: absolute;
+              width: 100%;
+               height: 100%;
+               background: #000000bf;
+               border-radius: 10px;
+               padding:20px 0 0 20px; 
+               opacity: 0; 
+               transition: 0.9s ease; 
+               
+           }
+
+           p{
+             margin-top: 5px;
+           }
+}

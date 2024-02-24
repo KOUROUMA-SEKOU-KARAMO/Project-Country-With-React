@@ -1,0 +1,65 @@
+.container-nav-tri{
+    display: flex;
+     padding: 10px 20px;
+     margin-top: 20px;
+     align-items: center;
+       
+     background: #f1f1f1;
+     border-radius: 20px;
+     @media screen and (max-width: 672px){
+        flex-direction: column;
+    }
+ 
+     .left{
+         margin-right: 20px;
+         color: #111111f2!important;
+        display: flex;
+          
+   
+         .rangeLength{
+             color: #111111; 
+             margin-left:5px ;
+         }
+     }
+     
+      .right{
+         display: flex;
+         
+         @media screen and (max-width: 672px){
+            flex-direction: column;
+        }
+         li{
+             margin: 10px 15px;
+         color: #111111fa;
+  
+
+          input{
+            cursor: pointer; 
+             
+          }
+
+          label{
+             color: teal; 
+             margin-left: 8px;
+             cursor: pointer; 
+          }
+
+         }
+
+         button{
+             color: #f1f1f1;; 
+             border-radius: 10px;
+            outline: none;
+            border: none;
+            padding: 3px 6px;
+            background: rgb(23, 154, 154);
+            cursor: pointer;
+            transition: .2s ease-in-out; 
+            &:hover{
+                 transform: scale(1.05);
+            }
+
+
+         }
+        }
+}

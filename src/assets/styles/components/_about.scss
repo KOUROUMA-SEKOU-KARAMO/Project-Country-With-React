@@ -1,0 +1,19 @@
+.container-about{
+    padding-left: 20px;
+    @media screen and (max-width: 572px) {
+        padding-left: 5px;
+        color: #f1f1f1;
+    }
+      h1{
+         margin: 20px; 
+         text-align: center;
+         font-family: serif;
+         color: #f1f1f1;
+      }
+
+      p{
+         line-height: 1.5;
+         margin-bottom: 15px;
+         color: #f1f1f1;
+      }
+}
